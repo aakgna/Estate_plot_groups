@@ -15,7 +15,7 @@
    Input
    ![Input Image](./public/41-2022_text.jpg)
    output
-   ![Output Image](./public/41-2022.jpg)
+   ![Output Image](./public/41-2022_2.jpg)
 
    <br/>
 
@@ -30,7 +30,7 @@
 
    Example2:
    Input:
-   ![Input Image](./public/41-2022.jpg)
+   ![Input Image](./public/41-2022_2.jpg)
    Output:
    ![Input Image](./public/41-2022plot.jpg)
 
