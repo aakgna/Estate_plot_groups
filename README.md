@@ -8,14 +8,14 @@
    <br/>
    Example1: <br/>
    Input
-   ![Input Image](./public/212-2020_text.jpg)
+   ![Input Image](./public/2D-floor-plan-room-dimensions.jpg)
    output
-   ![Output Image](./public/212-2020.jpg)
+   ![Output Image](<./public/2D-floor-plan-room-dimensions(2).jpg>)
    Example2: <br/>
    Input
-   ![Input Image](./public/41-2022_text.jpg)
+   ![Input Image](./public/2nd-floor-plan_orig.png)
    output
-   ![Output Image](./public/41-2022_2.jpg)
+   ![Output Image](<./public/2nd-floor-plan_orig(1).jpg>)
 
    <br/>
 
@@ -24,15 +24,15 @@
    Example1:
    <br/>
    Input:
-   ![Output Image](./public/212-2020.jpg)
+   ![Output Image](<./public/2D-floor-plan-room-dimensions(2).jpg>)
    output:
-   ![Output Image](./public/212-2020plot.jpg)
+   ![Output Image](<./public/2D-floor-plan-room-dimensions(3).jpg>)
 
    Example2:
    Input:
-   ![Input Image](./public/41-2022_2.jpg)
+   ![Input Image](<./public/2nd-floor-plan_orig(1).jpg>)
    Output:
-   ![Input Image](./public/41-2022plot.jpg)
+   ![Input Image](<./public/2nd-floor-plan_orig(2).jpg>)
 
    <br/>
    **IMPORTANT**
