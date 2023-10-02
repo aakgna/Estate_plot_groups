@@ -1,26 +1,29 @@
-#!/bin/bash
+# Set source and dest folders
+SRC_DIR="./original_images"
+DEST_DIR="./groups"
 
-# Folder path 
-folder="./original_images"
+# Make dest folders 
+mkdir -p "$DEST_DIR"/group{1..6}
 
-# File extensions to look for
-image_exts=("jpg" "jpeg" "png" "gif")
+# Get total files 
+totalFiles=$(ls "$SRC_DIR" | wc -l)
 
-# Initialize count
-count=0
+# Calculate files per folder
+filesPerGroup=$((totalFiles / 6))
 
-# Loop through files in folder
-for file in "$folder"/* ; do
+# Keep track of files moved
+count=1 
 
-  # Get file extension
-  ext="${file##*.}"
+# Loop through source files
+for file in "$SRC_DIR"/*; do
 
-  # Check if image file
-  if [[ " ${image_exts[@]} " =~ " $ext " ]]; then
-    count=$((count+1))
-  fi
+  # Calculate dest folder
+  groupNumber=$(( (count - 1) / filesPerGroup + 1))
+
+  # Move file
+  mv "$file" "$DEST_DIR/group$groupNumber"
+
+  # Increment counter
+  count=$((count + 1))
 
 done
-
-# Output count
-echo "Total image files: $count"
