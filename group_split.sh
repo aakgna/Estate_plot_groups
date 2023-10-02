@@ -1,7 +1,7 @@
 # Set source and dest folders
 SRC_DIR="./original_images"
 DEST_DIR="./groups"
-
+cnt=1
 # Make dest folders 
 mkdir -p "$DEST_DIR"/group{1..6}
 
