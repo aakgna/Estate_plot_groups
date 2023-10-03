@@ -1,6 +1,9 @@
 1. In order to run the pdf2image.sh in the terminal you first need to install imagemagick. If MAC user, you can do brew install imagemagick
    <br/>
 
+**Youtube Link for Photopea.com** <br/>
+https://youtu.be/0HIpaX7w-3I
+
 2. Rules for removing text and unnecessary parts of image: (1) Remove All Text (even small ones) (2) remove all objects like bed, couch, kitchen. etc. (3) make sure all the words and objects iut of the plot are gone
    <br/>
    GOAL: <br/>
