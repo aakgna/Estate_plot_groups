@@ -4,6 +4,10 @@
 **Youtube Link for Photopea.com** <br/>
 https://youtu.be/0HIpaX7w-3I
 
+**Important**
+Remove (delete) irrelevant images. Irrelevant images are those that DO NOT look like a floor plan.
+<br/>
+
 2. Rules for removing text and unnecessary parts of image: (1) Remove All Text (even small ones) (2) remove all objects like bed, couch, kitchen. etc. (3) make sure all the words and objects iut of the plot are gone
    <br/>
    GOAL: <br/>
